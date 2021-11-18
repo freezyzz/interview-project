@@ -16,5 +16,4 @@ public class ImageController {
         return ResponseEntity.ok(downloadImageService.saveImage(url));
     }
 
-
 }
